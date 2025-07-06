@@ -4,8 +4,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Global components
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 
 // Country pages
 import Bangladesh from "./components/countries/bangladesh";
