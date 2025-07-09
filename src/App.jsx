@@ -9,6 +9,7 @@ import Footer from "./components/footer";
 
 // Country pages
 import Bangladesh from "./components/countries/bangladesh";
+import Malaysia from "./components/countries/malaysia";
 import India from "./components/countries/india";
 import Pakistan from "./components/countries/pakistan";
 import Palestine from "./components/countries/palestine";
@@ -47,6 +48,7 @@ function App() {
 
             {/* Countries */}
             <Route path="/bangladesh" element={<Bangladesh />} />
+            <Route path="/malaysia" element={<Malaysia />} />
             <Route path="/india" element={<India />} />
             <Route path="/pakistan" element={<Pakistan />} />
             <Route path="/palestine" element={<Palestine />} />

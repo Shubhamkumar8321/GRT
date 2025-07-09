@@ -78,7 +78,8 @@ const Navbar = () => {
             </button>
             {openDropdown === "countries" && (
               <div className="absolute bg-white shadow-lg rounded-md mt-2 py-2 w-56 right-0 z-50 border">
-                <Link to="/palestine" className="block px-4 py-2 font-semibold hover:bg-gray-50 hover:text-blue-600 transition-colors">Palestine</Link>
+                <Link to="/malaysia" className="block px-4 py-2 font-semibold hover:bg-gray-50 hover:text-blue-600 transition-colors">Malaysia</Link>
+                 <Link to="/palestine" className="block px-4 py-2 font-semibold hover:bg-gray-50 hover:text-blue-600 transition-colors">Palestine</Link>
                 <Link to="/yemen" className="block px-4 py-2 font-semibold hover:bg-gray-50 hover:text-blue-600 transition-colors">Yemen</Link>
                 <Link to="/india" className="block px-4 py-2 font-semibold hover:bg-gray-50 hover:text-blue-600 transition-colors">India</Link>
                 <Link to="/bangladesh" className="block px-4 py-2 font-semibold hover:bg-gray-50 hover:text-blue-600 transition-colors">Bangladesh</Link>
@@ -144,6 +145,7 @@ const Navbar = () => {
               </button>
               {openDropdown === "countries" && (
                 <div className="pl-4 mt-2 space-y-2">
+                  <Link to="/malaysia" onClick={closeMobileMenu} className="block font-semibold">Malaysia</Link>
                   <Link to="/palestine" onClick={closeMobileMenu} className="block font-semibold">Palestine</Link>
                   <Link to="/yemen" onClick={closeMobileMenu} className="block font-semibold">Yemen</Link>
                   <Link to="/india" onClick={closeMobileMenu} className="block font-semibold">India</Link>
