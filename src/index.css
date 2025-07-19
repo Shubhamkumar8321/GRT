@@ -1,0 +1,16 @@
+
+@font-face {
+  font-family: 'Webspecia';
+  src: url('./assets/fonts/Webspecia-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-family: 'Webspecia', sans-serif;
+}
